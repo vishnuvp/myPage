@@ -1,0 +1,141 @@
+@keyframes intro
+{
+	0%{
+			left: 1%;
+			top: 60%;
+			opacity: 0;		
+		}	
+		50% {
+			left: 50%;
+			top: 10%;
+			opacity: 1;
+			}
+			
+			99% {
+			left: 80%;
+			top: 80%;
+			opacity: 0;	
+				}	
+	
+}
+@-webkit-keyframes intro
+{
+		
+	0%{
+			left: 15vw;
+			top: 60vh;
+			opacity: 0;		
+		}	
+		50% {
+			left: 50vw;
+			top: 10vh;
+			opacity: 1;
+			}
+				99%{
+			left: 75vw;
+			top: 60vh;
+			opacity: 0;		
+		}	
+
+	
+}
+
+.lm {
+	background-color: transparent;
+	position: absolute;
+	float: left;
+	width: 500px;
+	height: 500px;
+	left: 30%;
+	top: 20%;
+background-repeat:  no-repeat;
+background-position: center center;
+opacity: 0;
+
+border-radius: 500px;
+-moz-border-radius: 500px;
+-webkit-border-radius: 500px;	
+-o-border-radius: 500px;	
+
+box-shadow: 0 0 20px #DEDEDE;
+-moz-box-shadow: 0 0 20px #DEDEDE;
+-webkit-box-shadow: 0 0 20px #DEDEDE;
+-o-box-shadow: 0 0 20px #DEDEDE;
+animation: intro 5s ease;
+-webkit-animation: intro 5s ease;		
+	}
+	
+	
+	
+	#cc {
+background-image: url("../resources/cc.jpg")	;	
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+		
+		}
+		
+		
+	#tcs {
+background-image: url("../resources/tcs.png")	;	
+	width: 200px;
+	height: 200px;	
+animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+		
+		}
+		
+	#cy {
+background-image: url("../resources/cy.png")	;	
+	animation-delay: 11s;
+	-webkit-animation-delay: 11s;
+	width: 200px;
+	height: 200px;	
+	
+		}
+		#fb {
+background-image: url("../resources/fb.png")	;	
+	animation-delay: 16s;
+	-webkit-animation-delay: 16s;
+		
+		}
+
+		#tw {
+background-image: url("../resources/tw.png")	;	
+	animation-delay: 21s;
+	-webkit-animation-delay: 21s;
+		
+		}
+		#gh {
+background-image: url("../resources/gh.png")	;	
+	animation-delay: 26s;
+	-webkit-animation-delay: 26s;
+		
+		}		
+		#gp {
+background-image: url("../resources/gp.png")	;	
+	animation-delay: 31s;
+	-webkit-animation-delay: 31s;
+		
+		}
+		#lin {
+background-image: url("../resources/lin.png")	;	
+	animation-delay: 36s;
+	-webkit-animation-delay: 36s;
+		
+		}
+				#mail {
+background-image: url("../resources/mail.png")	;	
+	animation-delay: 41s;
+	-webkit-animation-delay: 41s;
+		
+		}		
+		#tvm {
+background-image: url("../resources/tvm.jpg")	;	
+	animation-delay: 46s;
+	-webkit-animation-delay: 46s;
+		
+		}
+	
+		
+		
+		
